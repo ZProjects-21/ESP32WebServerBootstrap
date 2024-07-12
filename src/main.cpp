@@ -13,8 +13,8 @@ const char* password("PASSWORD");   //input your password here
 IPAddress local_IP(192,168,32,32);  //ipv4  
 IPAddress gateway(192,168,32,32);   //your gateway
 IPAddress subnet(255,255,255,0);
-IPAddress dns1(1,1,1,2);            //(optional)
-IPAddress dns2(1,0,0,2);            //(optional)
+IPAddress dns1(192,168,32,32);      //(optional)
+IPAddress dns2(0,0,0,0);            //(optional)
 
 AsyncWebServer server(80);
 
